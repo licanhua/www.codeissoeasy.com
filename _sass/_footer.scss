@@ -1,0 +1,41 @@
+// =============================
+// index.scss
+// =============================
+// Used for page footer.
+
+.footer{
+
+  @include flexbox;
+  padding: 1rem 0 0 0;
+  margin-top: auto;
+  color: var(--c-footerText);
+
+  &__about{
+
+      @include flexbox;
+
+      &__copyright{
+          margin: 0;
+      }
+
+      .divider{
+          margin: 0 1rem;
+
+          @include for-size('tablet'){
+              display: none;
+          }
+      }
+
+      &__theme{
+          @include flexbox;
+      }
+
+      @include for-size('tablet'){
+          flex-direction: column;
+      }
+  }
+
+  a {
+    margin: 2px;
+  }
+}
