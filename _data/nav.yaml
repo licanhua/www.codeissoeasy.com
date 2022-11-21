@@ -15,6 +15,11 @@
                   url: category/ruby.html
                   hue: "var(--c-themeHueYellow)"
 
+- title: HowTo
+  url: category/howto.html
+  icon: assets/img/icons/howto.svg
+  hue: "var(--c-themeHueBlue)"
+
 - title: React
   url: category/react.html
   icon: assets/img/icons/react.svg
