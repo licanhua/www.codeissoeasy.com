@@ -15,26 +15,26 @@
     property="og:title"
     content="
         
-            Syntax highlighting example
+            How to create and publish a static site with jekyll
         
     " 
 />
 
-    <meta property="og:description" content="Various syntax highlighting examples." />
+    <meta property="og:description" content="Build your website with jekyll." />
 
-<meta property="og:url" content="http://localhost:4000//programming/cpp/2021/06/16/syntax-example.html" />
+<meta property="og:url" content="http://localhost:4000//howto/2022/11/20/jekyll.html" />
 
     <meta property="og:type" content="article" />
 
 
 
-    <meta property="fb:app_id" content="example" />
+    <meta property="fb:app_id" content="" />
 
 
 
 <title>
     
-        Syntax highlighting example
+        How to create and publish a static site with jekyll
     
 </title>
 </head>
@@ -206,19 +206,17 @@
     <article class="post">
 
     <div class="post__title">
-        <h1 class="post__title__text">Syntax highlighting example</h1>
+        <h1 class="post__title__text">How to create and publish a static site with jekyll</h1>
     </div>
     <div class="post__meta"> 
         <div class="post__meta__category">
             
-                <p class="post__meta__category__title" style="background: var(--c-themeHueRed)">Programming</p>
-            
-                <p class="post__meta__category__title" style="background: var(--c-themeHueBlue)">C++</p>
+                <p class="post__meta__category__title" style="background: var(--c-themeHueGreen)">How To</p>
             
         </div>
         <p class="post__meta__divider">·</p>
         <div class="post__meta__date">
-            June 16, 2021
+            November 20, 2022
         </div>
         
             
@@ -232,29 +230,31 @@
     </div>
 
     
-        <div class="post__navigator">
-            <div
-                class="post__navigator__buttons"
-                
-            >
-                
-                    <a href="/js/2021/06/16/welcome-to-jekyll.html">
-                        <img  class="arrow-left" src="http://localhost:4000/assets/img/icons/arrow_left.svg"/>
-                        Previous
-                    </a>
-                
-                
-                    <a href="/design/2021/06/16/pictures-example.html">
-                        Next
-                        <img class="arrow-right" src="http://localhost:4000/assets/img/icons/arrow_right.svg"/>
-                    </a>
-                
-            </div>
-        </div>
-    
 
     <div class="post__content">
-        <p>cpp example</p>
+        <p>There are many static site generators: Gatsby, Hugo, VuePress, JekyII, NextJS. If you have ruby enviroment ready, you may try JekyII.
+If you are Windows guy and new to ruby, setup the ruby enviroment will be challenging to you. I would recommend you to try Gatsby and generator.</p>
+
+<p>Demo site: <a href="www.codeissoeasy.com">www.codeissoeasy.com</a></p>
+
+<h1 id="create-a-jekyllrb">Create a jekyllrb</h1>
+<p>You may follow <a href="https://jekyllrb.com/">jekyll docs</a> to create a new project. You may <a href="https://jekyllrb.com/docs/themes/#pick-up-a-theme">pick up a theme</a> first, then clone and modify the demo project. It will save you a lot of time.</p>
+
+<p>I chose <a href="https://github.com/andreondra/jekyll-theme-simplex">jekyll-theme-simplex</a>, and cloned <a href="https://github.com/andreondra/simplex-demo">simplex-demo</a> as the startpoint of my project.</p>
+
+<h1 id="publish-the-website">Publish the website</h1>
+<h2 id="deploying-jekyll-to-github-pagesgithub-page">Deploying Jekyll to GitHub PagesGitHub page</h2>
+<p>GitHub Pages are public web pages for users, organizations, and repositories, that are freely hosted on GitHub’s github.io domain or on a custom domain name of your choice. GitHub Pages are powered by Jekyll behind the scenes, so they’re a great way to host your Jekyll-powered website for free.</p>
+
+<p>https://jekyllrb.com/docs/github-pages/#:~:text=Deploying%20Jekyll%20to%20GitHub%20Pages%20GitHub%20Pages%20work,a%20few%20minor%20details.%20User%20and%20Organization%20Pages</p>
+
+<h2 id="deploy-to-azure">Deploy to Azure</h2>
+<p>Azure also provides free <a href="https://learn.microsoft.com/en-us/azure/static-web-apps/">Azure Static Web Apps</a> for you to publish your static pages. <a href="https://learn.microsoft.com/en-us/azure/static-web-apps/publish-jekyll">publish-jekyll</a></p>
+
+<h2 id="using-an-azure-static-web-app-with-a-google-domain">Using an Azure static web app with a Google domain</h2>
+
+<p>If you have good domain, and want to publish to Azure, I would recommend you read <a href="https://www.cgrimes.dev/using-azure-web-app-with-google-domains/#:~:text=Setup%20your%20www%20subdomain%201%20Azure%20Static%20Web,Configure%20page%20so%20click%20the%20Add%20button%20">Using an Azure static web app with a Google domain</a></p>
+
 
     </div>
 </article>
